@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "talk bloke",
+  "version": "0.1.0",
+  "description": "this is an ai chat bot with the brit bloke from south london",
+  "action": {
+    "default_popup": "lap1.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "default_popup_dimensions": {
+      "width": 400,
+      "height": 600
+    }
+}
+  ,
+  "background": {
+    "service_worker": "service_worker1.js"
+  },
+  "permissions": ["storage", "activeTab", "tabs"],
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
